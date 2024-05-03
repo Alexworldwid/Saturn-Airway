@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#sidenav::before {
+    position: absolute;
+    content: ' ';
+    top: -1.9rem;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 30px 40px 30px 0;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    z-index: 2;
+}
+
+
+#signup {
+    background-position: center;
+    background-image: url(/images/Lorem-Ipsum-alternatives-768x492.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-span-2-5 {
+  grid-column: span 2.5;
+}
+
+.col-span-0-5 {
+  grid-column: span 0.5;
+}
+
+.col-span-0-3 {
+  grid-column: span 0.3;
+}
